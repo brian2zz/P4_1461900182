@@ -19,4 +19,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','App\Http\Controllers\PrakController@buku')->name('buku');
 Route::get('/user','App\Http\Controllers\PrakController@user')->name('user');
+Route::get('/about',function(){return view('about0182');});
 Route::get('/export','App\Http\Controllers\PrakController@export')->name('export');
