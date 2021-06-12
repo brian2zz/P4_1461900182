@@ -19,6 +19,6 @@ class PrakController extends Controller
         return view('user0182',['user' => $user]);
     }
     public function export(){
-        return Excel::download(new UsersExport, 'buku.xlsx');
+        return Excel::download(new UsersExport, 'data_1461900182.xlsx');
     }
 }
